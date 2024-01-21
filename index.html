@@ -45,9 +45,9 @@
     </style>
   </head>
   <body class="font-manrope">
-    <header class="container mx-auto">
-      <div class="hero">
-        <div class="hero-content flex-col lg:flex-row-reverse">
+    <header class="container mx-auto mt-10">
+      <div class="">
+        <div class="flex justify-between flex-col lg:flex-row-reverse">
           <div>
             <img src="images/banner.png" class="max-w-sm" />
             <div
@@ -68,7 +68,7 @@
               tea time at The <br />
               Tea House
             </h1>
-            <p class="py-6">
+            <p class="py-6 w-3/4">
               Tea and Botanical Solutions Supplier Give Optimum Satisfaction To
               Your Taste Buds. et a id nisi.
             </p>
@@ -314,16 +314,18 @@
     </main>
     <!-- FOOTER SECTION STARTED -->
     <footer
-      class="py-32 px-52 bg-base-200 text-base-content bg-gradient-to-l from-[#ff00001a] to-[#ff89391a]"
+      class="lg:py-32 lg:px-52 bg-base-200 text-base-content bg-gradient-to-l from-[#ff00001a] to-[#ff89391a]"
     >
-      <div class="flex justify-between mb-20">
-        <img src="images/cup.png" alt="" />
-        <div class="flex gap-8">
+      <div
+        class="flex flex-col items-center space-y-4 lg:justify-between mb-20"
+      >
+        <img class="w-10 h-10" src="images/cup.png" alt="" />
+        <div class="flex gap-8 lg:flex-row flex-col">
           <p class="text-gray-500 font-medium text-xl">Ready to get strated?</p>
           <button class="btn btn-primary">Get Started</button>
         </div>
       </div>
-      <div class="footer">
+      <div class="footer flex flex-col lg:flex-row items-center">
         <nav>
           <header class="footer-title">Services</header>
           <a class="link link-hover">Branding</a>
@@ -344,7 +346,7 @@
           <a class="link link-hover">Privacy policy</a>
           <a class="link link-hover">Cookie policy</a>
         </nav>
-        <form>
+        <form class="">
           <header class="footer-title">Newsletter</header>
           <fieldset class="form-control w-80">
             <label class="label">
@@ -354,7 +356,7 @@
               <input
                 type="text"
                 placeholder="username@site.com"
-                class="bg-transparent border-b-2 py- border-gray-500 outline-none"
+                class="bg-transparent border-b-2 border-gray-500 outline-none"
               />
               <button
                 class="btn bg-gradient-to-r from-gradient-start to-gradient-end rounded-full join-item"
